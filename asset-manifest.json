@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7dbb11fe.css",
+    "main.js": "/portfolio/static/js/main.24b6b8e0.js",
+    "static/media/logo.png": "/portfolio/static/media/logo.11192acb569da16602c9.png",
+    "static/media/universityLogo.png": "/portfolio/static/media/universityLogo.0ecb21ad77bc1e88cba4.png",
+    "static/media/dp.jpeg": "/portfolio/static/media/dp.5e46f2f414dfae4e65a1.jpeg",
+    "static/media/project-cover10.png": "/portfolio/static/media/project-cover10.aee0f771fbfc1e7b8fa8.png",
+    "static/media/kindpng_2158189.png": "/portfolio/static/media/kindpng_2158189.993e72ac03af7f65a947.png",
+    "index.html": "/portfolio/index.html",
+    "main.7dbb11fe.css.map": "/portfolio/static/css/main.7dbb11fe.css.map",
+    "main.24b6b8e0.js.map": "/portfolio/static/js/main.24b6b8e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dbb11fe.css",
+    "static/js/main.24b6b8e0.js"
+  ]
+}
