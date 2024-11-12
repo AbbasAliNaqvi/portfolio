@@ -16,15 +16,7 @@ const Projects = (props) => {
     let projects = ProjectsData.DUMMY_PROJECTS;
     return (
         <div id="projects">
-            <div className={styles.projects}>
-                <section className={styles.projectImg}>
-                    <img src={projectCoverImg} alt="" />
-                </section>
-                <section className={styles.projectHeader}>
-                    <h1><span style={{ color: nonThemeColor }}>My Recent </span><span style={{ color: uiColor }}>Works</span></h1>
-                    <div>My works makes use of vast variety of latest technology tools. My best experience is to create React projects and deploy them to web applications using Github Pages.</div>
-                </section>
-            </div>
+            
             <ProgrammingSkills />
             <h1 className={styles.projectHeading} style={{ color: nonThemeColor }}>My Projects</h1>
             <div className={styles.projectList}>

@@ -7,7 +7,6 @@ import { autoTypeData } from "../../Data/PersonalData";
 
 import SocialLinks from "../SocialLinks/SocialLinks";
 import { useSelector } from "react-redux";
-// const linkIcons=[GitHubIcon,LinkedInIcon,TwitterIcon,InstagramIcon,EmailIcon];
 
 function Home(props) {
 
@@ -32,7 +31,7 @@ function Home(props) {
                 <h1 className={classes.greeting}>
                     Hi There !
                 </h1>
-                <h2>I'm &nbsp;<span id="name" style={{ color: uiColor }}>{PersonalData.firstName}&nbsp;{PersonalData.lastName}</span></h2>
+                <h2>I'm&nbsp;<span id="name" style={{ color: uiColor }}>{PersonalData.firstName}&nbsp;{PersonalData.lastName}</span></h2>
                 <h3 style={{ color: nonThemeColor }}>
                     {PersonalData.nickName}
                 </h3>

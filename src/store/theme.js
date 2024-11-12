@@ -21,12 +21,12 @@ const themeSlice=createSlice({
             console.log(action.payload);
             if(action.payload==='dark'){
                 state.mode='dark';
-                state.theme.color='cyan';
-                state.theme.backgroundColor='rgb(0, 31, 63)';
-                state.nonThemeColor='white';
+                state.theme.color='dark';
+                state.theme.backgroundColor='dark';
+                state.nonThemeColor='dark';
             }
             else{
-                state.mode='light';
+                state.mode='dark';
                 state.theme=initialThemeState.theme;
                 state.nonThemeColor='black';
             }
